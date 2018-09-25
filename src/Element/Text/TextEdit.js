@@ -48,9 +48,9 @@ class TextEdit extends Component {
         }
     }
 
-    componentWillReceiveProps(nextprops) {
-        if (nextprops.data.content!==this.state.text) {
-            this.setState({text: nextprops.data.content});
+    componentDidUpdate(prevProps) {
+        if (this.props.data.content!==this.state.text) {
+            this.setState({text: this.props.data.content});
         }
     }
 

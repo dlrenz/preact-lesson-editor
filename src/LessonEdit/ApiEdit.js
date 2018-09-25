@@ -28,7 +28,8 @@ class ApiEdit extends Component {
     }
 
     handleAction(action) {
-        isValidAction(action) ? this.actionDict[action.type](action.value) : null;
+        if(isValidAction(action))
+            this.actionDict[action.type](action.value);
     }
 
     componentWillUnmount() {

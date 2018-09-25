@@ -5,7 +5,6 @@ import ApiView from './ApiView';
 import UnknownElement from '../UnknownElement';
 import EndOfChapterView from './EndOfChapterView';
 
-import { capitalize } from '../scripts/utils';
 import { customElementTypes } from '../config';
 
 // Define default elements that are always used
@@ -23,10 +22,6 @@ customElementTypes.forEach(elem => {
 
 
 class ElementView extends Component {
-
-    constructor(props){
-        super(props);
-    }
 
     typeToComponent(logicProps) {
         /* renderType must be either 'view' or 'edit' */
@@ -48,7 +43,6 @@ class ElementView extends Component {
     }
 
     render() {
-        const {id, type} = this.props.data;
         return (
             <div className='ElementView'>
                 <ApiView data={this.props.data} handleReady={this.props.handleReady} render={(logicProps)=>(

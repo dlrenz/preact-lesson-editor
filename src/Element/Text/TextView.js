@@ -1,14 +1,14 @@
 import { Component, h } from 'preact';
-//import ReactQuill from 'react-quill';
 
-//import 'react-quill/dist/quill.snow.css';
-//import './assets/QuillEdit.css';
+/*import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css';
+import './assets/QuillEdit.css';
 import textBoldIcon from './assets/quillBoldIcon.png';
 import textItalicIcon from './assets/quillItalicIcon.png';
 import textLinkIcon from './assets/quillLinkIcon.png';
 import textQuoteIcon from './assets/quillQuoteIcon.png';
 import textColorIcon from './assets/quillColorIcon.png';
-
+*/
 
 class TextView extends Component {
     constructor(props) {

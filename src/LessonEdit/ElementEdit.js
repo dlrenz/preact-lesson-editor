@@ -5,7 +5,6 @@ import ApiEdit from './ApiEdit';
 import UnknownElement from '../UnknownElement';
 import EndOfChapterEdit from './EndOfChapterEdit';
 
-import { capitalize } from '../scripts/utils';
 import { customElementTypes } from '../config';
 
 // Define default elements that are always used
@@ -23,10 +22,6 @@ customElementTypes.forEach(elem => {
 
 
 class ElementEdit extends Component {
-
-    constructor(props){
-        super(props);
-    }
 
     typeToComponent(logicProps) {
         const props = Object.assign({
@@ -48,7 +43,6 @@ class ElementEdit extends Component {
 
     render() {
         // TODO: Import stuff from FadeableCard here!
-        const {id, type} = this.props.data;
         return (
             <div className='ElementEdit'>
                 <ApiEdit data={this.props.data} render={(logicProps)=>(
