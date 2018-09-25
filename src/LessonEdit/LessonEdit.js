@@ -3,7 +3,7 @@ import { h, Component } from 'preact';
 import ElementEdit from './ElementEdit';
 import ShowChildrenWhenReady from '../ShowChildrenWhenReady';
 
-import { defaultElems } from '../globals';
+import { defaultElems } from '../scripts/globals';
 
 class LessonEdit extends Component {
 	constructor(props) {

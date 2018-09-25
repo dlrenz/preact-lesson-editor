@@ -1,6 +1,6 @@
 import { h, Component } from 'preact';
 
-import { isValidAction } from '../utils';
+import { isValidAction } from '../scripts/utils';
 
 class ApiView extends Component {
 

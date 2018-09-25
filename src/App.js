@@ -3,7 +3,7 @@ import Router from 'preact-router';
 import AsyncRoute from 'preact-async-route';
 
 import LoadingPage from './LoadingPage';
-import './App.css';
+import './styles/App.css';
 
 class App extends Component {
   render() {

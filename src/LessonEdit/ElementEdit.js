@@ -5,7 +5,7 @@ import ApiEdit from './ApiEdit';
 import UnknownElement from '../UnknownElement';
 import EndOfChapterEdit from './EndOfChapterEdit';
 
-import { capitalize } from '../utils';
+import { capitalize } from '../scripts/utils';
 import { customElementTypes } from '../config';
 
 // Define default elements that are always used

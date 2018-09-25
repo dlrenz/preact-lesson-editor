@@ -3,7 +3,7 @@ import { h, Component } from 'preact';
 import ElementView from './ElementView';
 import ShowChildrenWhenReady from '../ShowChildrenWhenReady';
 
-import { defaultElems } from '../globals';
+import { defaultElems } from '../scripts/globals';
 
 
 class LessonView extends Component {

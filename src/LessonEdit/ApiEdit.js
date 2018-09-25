@@ -1,7 +1,7 @@
 import { h, Component } from 'preact';
 
-import { isValidAction } from '../utils';
-import { EDIT_SAVE_INTERVAL } from '../globals';
+import { isValidAction } from '../scripts/utils';
+import { EDIT_SAVE_INTERVAL } from '../scripts/globals';
 
 class ApiEdit extends Component {
 

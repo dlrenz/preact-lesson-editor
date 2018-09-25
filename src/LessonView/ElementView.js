@@ -5,7 +5,7 @@ import ApiView from './ApiView';
 import UnknownElement from '../UnknownElement';
 import EndOfChapterView from './EndOfChapterView';
 
-import { capitalize } from '../utils';
+import { capitalize } from '../scripts/utils';
 import { customElementTypes } from '../config';
 
 // Define default elements that are always used
